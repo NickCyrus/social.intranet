@@ -1,0 +1,79 @@
+ion-content{
+    --background: transparent
+}
+
+.content{
+    background-color:rgba(207, 180, 156, 0.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+     // #DCBFA7
+} 
+
+.box-contet{
+    position: relative;
+    padding: 39px;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-exit{
+    background: url('../../../assets/images/mdi_close.svg') 0 0/100% 100% no-repeat;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.logo-leyent{
+    background: url('../../../assets/images/logo-leyent.svg') 0 0/100% 100% no-repeat;
+    width: 105px;
+    height: 105px;
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+.box-leyent-msg{
+    position: absolute;
+    width: 287px;
+    height: 88px;
+    right: 60px;
+    top: 426px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.icon-email{
+    background: url('../../../assets/images/mdi_mail_outline.svg') 0 0/100% 100% no-repeat;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 62px;
+    top: 371px;
+    display: block;
+}
+
+.box-input{
+    position: absolute;
+    width: 282.46px;
+    height: 70px;
+    left: 62.9px;
+    bottom: 226px;
+} 
+
+.box-input .input-color{
+    padding: 10px;
+    border: 0px;
+    width: 100%;
+    border-bottom: 2px solid var(--color-naranja);
+    color: var(--color-naranja);
+} 
+
+   

@@ -1,0 +1,85 @@
+#container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: url('../../../assets/images/background-home.jpg') 0 0/100% 100% no-repeat;
+  width:100%;
+  height:100%; 
+} 
+
+
+.logo-home{
+    position: absolute;
+    width: 206px;
+    height: 206px;
+    left: 100px;
+    top: 142px;
+    background: url('../../../assets/images/Logotipo.svg') 0 0/100% 100% no-repeat;
+    z-index: 1;
+}
+ 
+.logo-home div{
+    position: absolute;
+    width: 206px;
+    top: 136px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.box-login{
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.3);
+  width:100%;
+  height:100%;
+  z-index: 0; 
+}
+
+.box-login .login{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  position: absolute;
+  width: 330px;
+  height: 218px;
+  left: calc(50% - 330px/2 - 0.36px);
+  top: calc(50% - 218px/2 + 224px);
+}
+
+.box-login .login input{
+    background: #FFF;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 3px;
+} 
+
+.box-forgot{
+  text-align: right;
+}
+.forgot{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FCFCFC;
+    text-align: right;
+    padding: 10px 0px;
+    display: inline-block;
+}
+ 
+.accountnot{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FCFCFC;
+    text-align: left;
+    padding: 10px 0px;
+    display: inline-block;
+}

@@ -1,0 +1,21 @@
+<ion-content [fullscreen]="true">
+  <div id="container">
+      <div class="logo-home">
+          <div>{{ "slogan" | translate }}</div>
+      </div>
+      
+      <div class="box-login" id="box-login" [hidden]=hiddenLogin>
+        <div class="login">
+            <input placeholder='{{ "user" | translate }}'  autofocus />
+            <input placeholder='{{ "password" | translate }}' />
+            <div class="box-forgot"><a class="forgot" (click)="openModalRemember()">{{ "forgot_password" | translate }}</a></div>
+
+            <ion-button class="btn-plane-orange" expand="full">{{ "entry" | translate }}</ion-button>
+
+            <div><a class="accountnot" (click)="openModalInfo()">{{ "accountnot" | translate }}</a></div>
+
+        </div>
+      </div>
+
+  </div>
+</ion-content>

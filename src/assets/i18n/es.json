@@ -1,0 +1,10 @@
+{
+    "forgot_password" : "Has olvidado la contraseña?",
+    "user" : "Usuario",
+    "password" : "Contraseña",
+    "leyent_remember" : "Introduzca el usuario o email asociado a la cuenta i recibira un enlace para su recuperación",
+    "send" : "Enviar",
+    "entry" : "Entrar",
+    "accountnot" : "No tienes cuenta?",
+    "slogan" : "Protegim a qui més ho necessita"
+}
