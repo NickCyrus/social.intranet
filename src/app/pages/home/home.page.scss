@@ -10,17 +10,17 @@
 
 .logo-home{
     position: absolute;
-    width: 206px;
+    width: 100%;
     height: 206px;
-    left: 100px;
+    left: 0px;
     top: 142px;
-    background: url('../../../assets/images/Logotipo.svg') 0 0/100% 100% no-repeat;
+    background: url('../../../assets/images/Logotipo.svg') center center no-repeat;
     z-index: 1;
 }
  
 .logo-home div{
     position: absolute;
-    width: 206px;
+    width: 100%;
     top: 136px;
     color: #FFF;
     text-align: center;
